@@ -279,7 +279,7 @@
 			"$objectFiles"
 		]
 	},
-	"target": "Pokitto",
+	"target": "linux",
 	"pipelines": {
 		"Pokitto": [
 			"img-to-c",
@@ -299,16 +299,14 @@
 	"meta": {
 		"My_settings.h": {},
 		"README.md": {},
-		"main.cpp": {},
+		"bitmap.cpp": {},
+		"pokitto_icon.h": {},
 		"project.json": {},
 		"tutorial_pics": {},
-		"tutorial_pics/connection.png": {},
-		"tutorial_pics/connection2.png": {},
 		"": {},
-		"tutorial_pics/connection.h": {},
-		"tutorial_pics/connection2.h": {},
-		"Tutorial_TrafficLights.elf": {},
-		"Tutorial_TrafficLights.bin": {}
+		"Tutorial_Bitmap": {},
+		"EEP.ROM": {},
+		"tutorial_pics/screenshot.png": {}
 	},
 	"ideVersion": 10000,
 	"BUILDFlags": {
